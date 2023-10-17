@@ -1,0 +1,23 @@
+.password-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+  .password-container {
+    height: 200px;
+    width: 300px;
+    box-shadow: 1px 3px 12px 1px grey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #46bbef;
+
+    .input {
+      height: 25px;
+      font-size: 17px;
+      border-radius: 3px;
+    }
+  }
+}

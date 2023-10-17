@@ -1,0 +1,9 @@
+<div>
+  <div class="password-wrapper">
+    <div class="password-container">
+      <label for="password">Password: </label>
+      <input id="password" class="input" [formControl]="password">
+      <app-validator-message [field]="password"></app-validator-message>
+    </div>
+  </div>
+</div>

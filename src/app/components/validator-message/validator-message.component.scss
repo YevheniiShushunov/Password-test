@@ -1,0 +1,30 @@
+.validation {
+  margin-top: 3px;
+  width: 100%;
+  height: 5px;
+  display: flex;
+  gap: 2px;
+
+  .block {
+    height: 8px;
+    width: 60px;
+  }
+
+  .base {
+    background: grey;
+  }
+
+  .medium {
+    background: yellow;
+  }
+
+  .strong {
+    background: green;
+  }
+
+  .error {
+    background: red;
+  }
+}
+
+
